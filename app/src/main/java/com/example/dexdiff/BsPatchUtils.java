@@ -14,9 +14,9 @@ public class BsPatchUtils {
     /**
      * 调用bsPatch 工具生成pahch
      *
-     * @param oldApk
-     * @param newApk 由oldApk和patchFile合成
-     * @param patchFile
+     * @param oldApk    旧版apk
+     * @param newApk    由oldApk和patchFile合成
+     * @param patchFile 升级包补丁文件
      */
     public static native int patch(String oldApk, String newApk, String patchFile);
 }
