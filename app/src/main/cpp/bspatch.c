@@ -31,7 +31,7 @@ static long offtin(u_char *buf)
 
     return y;
 }
-
+//修改main 为 executePatch
 int executePatch(int argc, char * argv[])
 {
     FILE * f, *cpf, *dpf, *epf;
