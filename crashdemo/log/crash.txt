@@ -1,0 +1,1210 @@
+Operating system: Android
+                  0.0.0 Linux 4.4.10-genymotion #1 SMP PREEMPT Fri Oct 28 09:28:26 UTC 2016 i686
+CPU: x86
+     GenuineIntel family 6 model 158 stepping 10
+     4 CPUs
+
+GPU: UNKNOWN
+
+Crash reason:  SIGSEGV
+Crash address: 0x0
+Process uptime: not available
+
+Thread 0 (crashed)
+ 0  libbugly.so + 0x1fe04
+    eip = 0xeb043e04   esp = 0xffefe1f0   ebp = 0xffefe228   ebx = 0xeb0be474
+    esi = 0xeb09e9d8   edi = 0xeb09ea05   eax = 0x00000013   ecx = 0x00000000
+    edx = 0x20248da7   efl = 0x00210282
+    Found by: given as instruction pointer in context
+ 1  base.odex + 0x6bec3f
+    eip = 0xe142dc3f   esp = 0xffefe230   ebp = 0x12c57190
+    Found by: previous frame's frame pointer
+ 2  dalvik-LinearAlloc (deleted) + 0x87e8
+    eip = 0xf04a57e8   esp = 0xffefe244   ebp = 0x12c57190
+    Found by: stack scanning
+ 3  dalvik-main space (deleted) + 0x49200
+    eip = 0x12c49200   esp = 0xffefe250   ebp = 0x12c57190
+    Found by: stack scanning
+ 4  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe258   ebp = 0x12c57190
+    Found by: stack scanning
+ 5  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe264   ebp = 0x12c57190
+    Found by: stack scanning
+ 6  base.odex + 0x8d16b6
+    eip = 0xe16406b6   esp = 0xffefe270   ebp = 0x12c57190
+    Found by: stack scanning
+ 7  dalvik-LinearAlloc (deleted) + 0x8838
+    eip = 0xf04a5838   esp = 0xffefe274   ebp = 0x12c57190
+    Found by: stack scanning
+ 8  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe278   ebp = 0x12c57190
+    Found by: stack scanning
+ 9  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe280   ebp = 0x12c57190
+    Found by: stack scanning
+10  boot.oat + 0x2840b88
+    eip = 0x73fb0b88   esp = 0xffefe290   ebp = 0x12c57190
+    Found by: stack scanning
+11  system@framework@boot.art + 0x820d68
+    eip = 0x715b6d68   esp = 0xffefe294   ebp = 0x12c57190
+    Found by: stack scanning
+12  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe298   ebp = 0x12c57190
+    Found by: stack scanning
+13  boot.oat + 0x2838ecf
+    eip = 0x73fa8ecf   esp = 0xffefe2a0   ebp = 0x12c57190
+    Found by: stack scanning
+14  dalvik-LinearAlloc (deleted) + 0x89c0
+    eip = 0xf04a59c0   esp = 0xffefe2a4   ebp = 0x12c57190
+    Found by: stack scanning
+15  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe2a8   ebp = 0x12c57190
+    Found by: stack scanning
+16  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe2b4   ebp = 0x12c57190
+    Found by: stack scanning
+17  dalvik-main space (deleted) + 0x711f0
+    eip = 0x12c711f0   esp = 0xffefe2b8   ebp = 0x12c57190
+    Found by: stack scanning
+18  boot.oat + 0x2956909
+    eip = 0x740c6909   esp = 0xffefe2c0   ebp = 0x12c57190
+    Found by: stack scanning
+19  system@framework@boot.art + 0x8cc078
+    eip = 0x71662078   esp = 0xffefe2c4   ebp = 0x12c57190
+    Found by: stack scanning
+20  dalvik-main space (deleted) + 0x711f0
+    eip = 0x12c711f0   esp = 0xffefe2c8   ebp = 0x12c57190
+    Found by: stack scanning
+21  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe2cc   ebp = 0x12c57190
+    Found by: stack scanning
+22  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe2d4   ebp = 0x12c57190
+    Found by: stack scanning
+23  dalvik-main space (deleted) + 0x711f0
+    eip = 0x12c711f0   esp = 0xffefe2d8   ebp = 0x12c57190
+    Found by: stack scanning
+24  boot.oat + 0x28d39af
+    eip = 0x740439af   esp = 0xffefe2e0   ebp = 0x12c57190
+    Found by: stack scanning
+25  system@framework@boot.art + 0x958de8
+    eip = 0x716eede8   esp = 0xffefe2e4   ebp = 0x12c57190
+    Found by: stack scanning
+26  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe2e8   ebp = 0x12c57190
+    Found by: stack scanning
+27  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe2f0   ebp = 0x12c57190
+    Found by: stack scanning
+28  dalvik-main space (deleted) + 0x711f0
+    eip = 0x12c711f0   esp = 0xffefe2f4   ebp = 0x12c57190
+    Found by: stack scanning
+29  dalvik-main space (deleted) + 0x964e0
+    eip = 0x12c964e0   esp = 0xffefe2f8   ebp = 0x12c57190
+    Found by: stack scanning
+30  dalvik-main space (deleted) + 0x7c0a0
+    eip = 0x12c7c0a0   esp = 0xffefe300   ebp = 0x12c57190
+    Found by: stack scanning
+31  dalvik-main space (deleted) + 0xc2480
+    eip = 0x12cc2480   esp = 0xffefe304   ebp = 0x12c57190
+    Found by: stack scanning
+32  dalvik-main space (deleted) + 0x73080
+    eip = 0x12c73080   esp = 0xffefe308   ebp = 0x12c57190
+    Found by: stack scanning
+33  dalvik-main space (deleted) + 0x71c0
+    eip = 0x12c071c0   esp = 0xffefe30c   ebp = 0x12c57190
+    Found by: stack scanning
+34  dalvik-main space (deleted) + 0x824c0
+    eip = 0x12c824c0   esp = 0xffefe31c   ebp = 0x12c57190
+    Found by: stack scanning
+35  dalvik-main space (deleted) + 0x401c0
+    eip = 0x12c401c0   esp = 0xffefe328   ebp = 0x12c57190
+    Found by: stack scanning
+36  dalvik-main space (deleted) + 0x750b0
+    eip = 0x12c750b0   esp = 0xffefe32c   ebp = 0x12c57190
+    Found by: stack scanning
+37  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe334   ebp = 0x12c57190
+    Found by: stack scanning
+38  dalvik-main space (deleted) + 0x57190
+    eip = 0x12c57190   esp = 0xffefe338   ebp = 0x12c57190
+    Found by: stack scanning
+39  dalvik-main space (deleted) + 0x880
+    eip = 0x12c00880   esp = 0xffefe33c   ebp = 0x12c57190
+    Found by: stack scanning
+40  dalvik-main space (deleted) + 0x711f0
+    eip = 0x12c711f0   esp = 0xffefe344   ebp = 0x12c57190
+    Found by: stack scanning
+41  dalvik-main space (deleted) + 0x964e0
+    eip = 0x12c964e0   esp = 0xffefe348   ebp = 0x12c57190
+    Found by: stack scanning
+42  dalvik-main space (deleted) + 0x7c0a0
+    eip = 0x12c7c0a0   esp = 0xffefe350   ebp = 0x12c57190
+    Found by: stack scanning
+43  dalvik-main space (deleted) + 0xc2480
+    eip = 0x12cc2480   esp = 0xffefe354   ebp = 0x12c57190
+    Found by: stack scanning
+44  dalvik-main space (deleted) + 0x73080
+    eip = 0x12c73080   esp = 0xffefe358   ebp = 0x12c57190
+    Found by: stack scanning
+45  dalvik-main space (deleted) + 0x71c0
+    eip = 0x12c071c0   esp = 0xffefe35c   ebp = 0x12c57190
+    Found by: stack scanning
+46  dalvik-main space (deleted) + 0x824c0
+    eip = 0x12c824c0   esp = 0xffefe36c   ebp = 0x12c57190
+    Found by: stack scanning
+47  dalvik-main space (deleted) + 0x73080
+    eip = 0x12c73080   esp = 0xffefe378   ebp = 0x12c57190
+    Found by: stack scanning
+48  dalvik-main space (deleted) + 0x81d00
+    eip = 0x12c81d00   esp = 0xffefe37c   ebp = 0x12c57190
+    Found by: stack scanning
+49  dalvik-main space (deleted) + 0x83160
+    eip = 0x12c83160   esp = 0xffefe380   ebp = 0x12c57190
+    Found by: stack scanning
+50  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe388   ebp = 0x12c57190
+    Found by: stack scanning
+51  boot.oat + 0x33a3153
+    eip = 0x74b13153   esp = 0xffefe390   ebp = 0x12c57190
+    Found by: stack scanning
+52  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe398   ebp = 0x12c57190
+    Found by: stack scanning
+53  boot.oat + 0x28ce649
+    eip = 0x7403e649   esp = 0xffefe3a0   ebp = 0x12c57190
+    Found by: stack scanning
+54  system@framework@boot.art + 0x958a50
+    eip = 0x716eea50   esp = 0xffefe3a4   ebp = 0x12c57190
+    Found by: stack scanning
+55  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe3a8   ebp = 0x12c57190
+    Found by: stack scanning
+56  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe3ac   ebp = 0x12c57190
+    Found by: stack scanning
+57  system@framework@boot.art + 0x96a250
+    eip = 0x71700250   esp = 0xffefe3b8   ebp = 0x12c57190
+    Found by: stack scanning
+58  libutils.so + 0x14b9a
+    eip = 0xf7718b9a   esp = 0xffefe3c0   ebp = 0x12c57190
+    Found by: stack scanning
+59  dalvik-main space (deleted) + 0x816c0
+    eip = 0x12c816c0   esp = 0xffefe3c8   ebp = 0x12c57190
+    Found by: stack scanning
+60  dalvik-main space (deleted) + 0xc10a0
+    eip = 0x12cc10a0   esp = 0xffefe3cc   ebp = 0x12c57190
+    Found by: stack scanning
+61  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe3d4   ebp = 0x12c57190
+    Found by: stack scanning
+62  dalvik-main space (deleted) + 0x401c0
+    eip = 0x12c401c0   esp = 0xffefe3d8   ebp = 0x12c57190
+    Found by: stack scanning
+63  dalvik-main space (deleted) + 0x965a0
+    eip = 0x12c965a0   esp = 0xffefe3dc   ebp = 0x12c57190
+    Found by: stack scanning
+64  boot.oat + 0x28d6482
+    eip = 0x74046482   esp = 0xffefe3e0   ebp = 0x12c57190
+    Found by: stack scanning
+65  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe3e8   ebp = 0x12c57190
+    Found by: stack scanning
+66  dalvik-main space (deleted) + 0x965a0
+    eip = 0x12c965a0   esp = 0xffefe3f0   ebp = 0x12c57190
+    Found by: stack scanning
+67  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe3f4   ebp = 0x12c57190
+    Found by: stack scanning
+68  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe3f8   ebp = 0x12c57190
+    Found by: stack scanning
+69  boot.oat + 0x28c3c3d
+    eip = 0x74033c3d   esp = 0xffefe400   ebp = 0x12c57190
+    Found by: stack scanning
+70  system@framework@boot.art + 0x958168
+    eip = 0x716ee168   esp = 0xffefe404   ebp = 0x12c57190
+    Found by: stack scanning
+71  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe408   ebp = 0x12c57190
+    Found by: stack scanning
+72  boot.oat + 0x217be10
+    eip = 0x738ebe10   esp = 0xffefe420   ebp = 0x12c57190
+    Found by: stack scanning
+73  boot.oat + 0x28c0bb0
+    eip = 0x74030bb0   esp = 0xffefe424   ebp = 0x12c57190
+    Found by: stack scanning
+74  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe428   ebp = 0x12c57190
+    Found by: stack scanning
+75  dalvik-main space (deleted) + 0xc26c0
+    eip = 0x12cc26c0   esp = 0xffefe42c   ebp = 0x12c57190
+    Found by: stack scanning
+76  boot.oat + 0x28c0caf
+    eip = 0x74030caf   esp = 0xffefe430   ebp = 0x12c57190
+    Found by: stack scanning
+77  system@framework@boot.art + 0x8c47b0
+    eip = 0x7165a7b0   esp = 0xffefe434   ebp = 0x12c57190
+    Found by: stack scanning
+78  dalvik-main space (deleted) + 0x40a00
+    eip = 0x12c40a00   esp = 0xffefe438   ebp = 0x12c57190
+    Found by: stack scanning
+79  dalvik-main space (deleted) + 0x401c0
+    eip = 0x12c401c0   esp = 0xffefe43c   ebp = 0x12c57190
+    Found by: stack scanning
+80  dalvik-main space (deleted) + 0x965a0
+    eip = 0x12c965a0   esp = 0xffefe440   ebp = 0x12c57190
+    Found by: stack scanning
+81  system@framework@boot.art + 0x8550b8
+    eip = 0x715eb0b8   esp = 0xffefe444   ebp = 0x12c57190
+    Found by: stack scanning
+82  libbinder.so + 0x278d8
+    eip = 0xf76d58d8   esp = 0xffefe450   ebp = 0x12c57190
+    Found by: stack scanning
+83  boot.oat + 0x28d2030
+    eip = 0x74042030   esp = 0xffefe454   ebp = 0x12c57190
+    Found by: stack scanning
+84  dalvik-main space (deleted) + 0x401c0
+    eip = 0x12c401c0   esp = 0xffefe45c   ebp = 0x12c57190
+    Found by: stack scanning
+85  dalvik-main space (deleted) + 0x965a0
+    eip = 0x12c965a0   esp = 0xffefe460   ebp = 0x12c57190
+    Found by: stack scanning
+86  dalvik-main space (deleted) + 0xc08e0
+    eip = 0x12cc08e0   esp = 0xffefe468   ebp = 0x12c57190
+    Found by: stack scanning
+87  dalvik-main space (deleted) + 0xc08e0
+    eip = 0x12cc08e0   esp = 0xffefe478   ebp = 0x12c57190
+    Found by: stack scanning
+88  dalvik-main space (deleted) + 0x73100
+    eip = 0x12c73100   esp = 0xffefe47c   ebp = 0x12c57190
+    Found by: stack scanning
+89  boot.oat + 0x2ff5aba
+    eip = 0x74765aba   esp = 0xffefe484   ebp = 0x12c57190
+    Found by: stack scanning
+90  dalvik-main space (deleted) + 0xc26c0
+    eip = 0x12cc26c0   esp = 0xffefe498   ebp = 0x12c57190
+    Found by: stack scanning
+91  dalvik-main space (deleted) + 0x9cec0
+    eip = 0x12c9cec0   esp = 0xffefe49c   ebp = 0x12c57190
+    Found by: stack scanning
+92  boot.oat + 0x28bf178
+    eip = 0x7402f178   esp = 0xffefe4a0   ebp = 0x12c57190
+    Found by: stack scanning
+93  system@framework@boot.art + 0x853a60
+    eip = 0x715e9a60   esp = 0xffefe4a4   ebp = 0x12c57190
+    Found by: stack scanning
+94  dalvik-main space (deleted) + 0x9cec0
+    eip = 0x12c9cec0   esp = 0xffefe4a8   ebp = 0x12c57190
+    Found by: stack scanning
+95  system@framework@boot.art + 0x5470e0
+    eip = 0x712dd0e0   esp = 0xffefe4b8   ebp = 0x12c57190
+    Found by: stack scanning
+96  system@framework@boot.art + 0x653958
+    eip = 0x713e9958   esp = 0xffefe4c0   ebp = 0x12c57190
+    Found by: stack scanning
+97  boot.oat + 0x28d2030
+    eip = 0x74042030   esp = 0xffefe4c4   ebp = 0x12c57190
+    Found by: stack scanning
+98  boot.oat + 0x2ff5aba
+    eip = 0x74765aba   esp = 0xffefe4c8   ebp = 0x12c57190
+    Found by: stack scanning
+99  dalvik-main space (deleted) + 0x9cec0
+    eip = 0x12c9cec0   esp = 0xffefe4cc   ebp = 0x12c57190
+    Found by: stack scanning
+100  boot.oat + 0x2ff5c5c
+    eip = 0x74765c5c   esp = 0xffefe4d0   ebp = 0x12c57190
+    Found by: stack scanning
+101  system@framework@boot.art + 0x854988
+    eip = 0x715ea988   esp = 0xffefe4d4   ebp = 0x12c57190
+    Found by: stack scanning
+102  boot.oat + 0x28c4dda
+    eip = 0x74034dda   esp = 0xffefe4e0   ebp = 0x12c57190
+    Found by: stack scanning
+103  dalvik-main space (deleted) + 0x9ce60
+    eip = 0x12c9ce60   esp = 0xffefe4f0   ebp = 0x12c57190
+    Found by: stack scanning
+104  dalvik-main space (deleted) + 0xc26c0
+    eip = 0x12cc26c0   esp = 0xffefe4f4   ebp = 0x12c57190
+    Found by: stack scanning
+105  dalvik-main space (deleted) + 0xc08e0
+    eip = 0x12cc08e0   esp = 0xffefe4f8   ebp = 0x12c57190
+    Found by: stack scanning
+106  boot.oat + 0x28d2030
+    eip = 0x74042030   esp = 0xffefe514   ebp = 0x12c57190
+    Found by: stack scanning
+107  dalvik-main space (deleted) + 0x9cec0
+    eip = 0x12c9cec0   esp = 0xffefe518   ebp = 0x12c57190
+    Found by: stack scanning
+108  system@framework@boot.art + 0x958d48
+    eip = 0x716eed48   esp = 0xffefe51c   ebp = 0x12c57190
+    Found by: stack scanning
+109  boot.oat + 0x28d2173
+    eip = 0x74042173   esp = 0xffefe520   ebp = 0x12c57190
+    Found by: stack scanning
+110  system@framework@boot.art + 0x958d48
+    eip = 0x716eed48   esp = 0xffefe524   ebp = 0x12c57190
+    Found by: stack scanning
+111  system@framework@boot.art + 0x306598
+    eip = 0x7109c598   esp = 0xffefe528   ebp = 0x12c57190
+    Found by: stack scanning
+112  system@framework@boot.art + 0x30a1a8
+    eip = 0x710a01a8   esp = 0xffefe530   ebp = 0x12c57190
+    Found by: stack scanning
+113  boot.oat + 0x368a07e
+    eip = 0x74dfa07e   esp = 0xffefe534   ebp = 0x12c57190
+    Found by: stack scanning
+114  icudt55l.dat + 0x816073
+    eip = 0xebad6073   esp = 0xffefe53c   ebp = 0xffefe7e0
+    Found by: stack scanning
+115  dalvik-main space (deleted) + 0x8b550
+    eip = 0x12c8b550   esp = 0xffefe7e8   ebp = 0x71640748
+    Found by: previous frame's frame pointer
+116  system@framework@boot.art + 0x3e8fe0
+    eip = 0x7117efe0   esp = 0xffefe7ec   ebp = 0x71640748
+    Found by: stack scanning
+117  dalvik-zygote space (deleted) + 0x2e0
+    eip = 0x753282e0   esp = 0xffefe7fc   ebp = 0x71640748
+    Found by: stack scanning
+118  dalvik-main space (deleted) + 0x8b550
+    eip = 0x12c8b550   esp = 0xffefe800   ebp = 0x71640748
+    Found by: stack scanning
+119  system@framework@boot.art + 0x3e8fe0
+    eip = 0x7117efe0   esp = 0xffefe80c   ebp = 0xffefe928
+    Found by: stack scanning
+120  boot.oat + 0x1197fb4
+    eip = 0x72907fb4   esp = 0xffefe930   ebp = 0xf3d9df50
+    Found by: previous frame's frame pointer
+121  system@framework@boot.art + 0x6df220
+    eip = 0x71475220   esp = 0xffefe944   ebp = 0xf3d9df50
+    Found by: stack scanning
+122  system@framework@boot.art + 0x6df220
+    eip = 0x71475220   esp = 0xffefe954   ebp = 0xf3d9df50
+    Found by: stack scanning
+123  system@framework@boot.art + 0x8aa748
+    eip = 0x71640748   esp = 0xffefe964   ebp = 0xf3d9df50
+    Found by: stack scanning
+124  libandroid_runtime.so + 0x12d4a9
+    eip = 0xf76464a9   esp = 0xffefe96c   ebp = 0xf3d9df50
+    Found by: stack scanning
+125  system@framework@boot.art + 0x8aa748
+    eip = 0x71640748   esp = 0xffefe978   ebp = 0xffefe9e4
+    Found by: stack scanning
+126  0xf3d99ae0
+    eip = 0xf3d99ae0   esp = 0xffefe9ec   ebp = 0xf3db4a00
+    Found by: previous frame's frame pointer
+127  libandroid_runtime.so + 0x6c21c
+    eip = 0xf758521c   esp = 0xffefea20   ebp = 0xf3db4a00
+    Found by: stack scanning
+128  system@framework@boot.art + 0x8aa748
+    eip = 0x71640748   esp = 0xffefea2c   ebp = 0xf3db4a00
+    Found by: stack scanning
+129  libandroid_runtime.so + 0x6fa64
+    eip = 0xf7588a64   esp = 0xffefea40   ebp = 0xf3db4a00
+    Found by: stack scanning
+130  system@framework@boot.art + 0x8aa748
+    eip = 0x71640748   esp = 0xffefea4c   ebp = 0xf3db4a00
+    Found by: stack scanning
+131  libcutils.so + 0x11270
+    eip = 0xf773c270   esp = 0xffefea5c   ebp = 0xf3db4a00
+    Found by: stack scanning
+132  libandroid_runtime.so + 0x12d432
+    eip = 0xf7646432   esp = 0xffefea70   ebp = 0xf3db4a00
+    Found by: stack scanning
+133  libart.so + 0x39fe43
+    eip = 0xf3940e43   esp = 0xffefea88   ebp = 0xf3db4a00
+    Found by: stack scanning
+134  libart.so + 0x3a7af0
+    eip = 0xf3948af0   esp = 0xffefea8c   ebp = 0xf3db4a00
+    Found by: stack scanning
+135  libart.so + 0x39fdfb
+    eip = 0xf3940dfb   esp = 0xffefea90   ebp = 0xf3db4a00
+    Found by: stack scanning
+136  libutils.so + 0x16ea2
+    eip = 0xf771aea2   esp = 0xffefeab0   ebp = 0xffefeb7c
+    Found by: stack scanning
+137  0xf3d09090
+    eip = 0xf3d09090   esp = 0xffefeb84   ebp = 0x565dfd68
+    Found by: previous frame's frame pointer
+138  libc.so + 0x2b3ce
+    eip = 0xf73193ce   esp = 0xffefebe0   ebp = 0x565dfd68
+    Found by: stack scanning
+139  libc.so + 0x961d0
+    eip = 0xf73841d0   esp = 0xffefec00   ebp = 0x565dfd68
+    Found by: stack scanning
+140  linker + 0x324
+    eip = 0xf7771324   esp = 0xffefec34   ebp = 0x565dfd68
+    Found by: stack scanning
+141  libc.so + 0x16f0d
+    eip = 0xf7304f0d   esp = 0xffefec50   ebp = 0x565dfd68
+    Found by: stack scanning
+142  app_process32 + 0x1b20
+    eip = 0x565dcb20   esp = 0xffefec80   ebp = 0xffefecac
+    Found by: stack scanning
+143  0x5
+    eip = 0x00000005   esp = 0xffefecb4   ebp = 0xffefecac
+    Found by: previous frame's frame pointer
+
+Thread 1
+ 0  libc.so + 0x84b0b
+    eip = 0xf7372b0b   esp = 0xf31b377c   ebp = 0xf31b3838   ebx = 0xf31b37a8
+    esi = 0x00000008   edi = 0xf31b38b4   eax = 0xfffffffc   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00200282
+    Found by: given as instruction pointer in context
+ 1  0x20248da7
+    eip = 0x20248da7   esp = 0xf31b3840   ebp = 0xe8357a40
+    Found by: previous frame's frame pointer
+ 2  libart.so + 0x6b6ab3
+    eip = 0xf3c57ab3   esp = 0xf31b3844   ebp = 0xe8357a40
+    Found by: stack scanning
+ 3  libart.so + 0x5257df
+    eip = 0xf3ac67df   esp = 0xf31b3860   ebp = 0xe8357a40
+    Found by: stack scanning
+ 4  libc.so + 0x80b7f
+    eip = 0xf736eb7f   esp = 0xf31b38a0   ebp = 0xe8357a40
+    Found by: stack scanning
+ 5  libc.so + 0xce27e
+    eip = 0xf73bc27e   esp = 0xf31b38b4   ebp = 0xe8357a40
+    Found by: stack scanning
+ 6  libc.so + 0x81f8a
+    eip = 0xf736ff8a   esp = 0xf31b38c0   ebp = 0xf31b3938
+    Found by: stack scanning
+ 7  0x1c87
+    eip = 0x00001c87   esp = 0xf31b3940   ebp = 0x00001c8c
+    Found by: previous frame's frame pointer
+ 8  libart.so + 0x5256b0
+    eip = 0xf3ac66b0   esp = 0xf31b3964   ebp = 0x00001c8c
+    Found by: stack scanning
+
+Thread 2
+ 0  libc.so + 0x856d5
+    eip = 0xf73736d5   esp = 0xf30b4604   ebp = 0x00000000   ebx = 0x00000010
+    esi = 0x00000000   edi = 0x00000000   eax = 0xfffffdfe   ecx = 0xf30b471c
+    edx = 0x00000000   efl = 0x00200246
+    Found by: given as instruction pointer in context
+ 1  libc.so + 0x2653d
+    eip = 0xf731453d   esp = 0xf30b4620   ebp = 0x00000000
+    Found by: stack scanning
+ 2  libc.so + 0x90b97
+    eip = 0xf737eb97   esp = 0xf30b4650   ebp = 0x00000000
+    Found by: stack scanning
+ 3  libart.so + 0x66be8d
+    eip = 0xf3c0ce8d   esp = 0xf30b4670   ebp = 0x00000000
+    Found by: stack scanning
+ 4  libart.so + 0x166b5c
+    eip = 0xf3707b5c   esp = 0xf30b46a0   ebp = 0xf30b4980
+    Found by: stack scanning
+
+Thread 3
+ 0  libc.so + 0x17232
+    eip = 0xf7305232   esp = 0xf2fb544c   ebp = 0x00000000   ebx = 0xeeb52388
+    esi = 0x00000000   edi = 0x00000000   eax = 0xfffffe00   ecx = 0x00000000
+    edx = 0x00000001   efl = 0x00200217
+    Found by: given as instruction pointer in context
+ 1  libart.so + 0x155065
+    eip = 0xf36f6065   esp = 0xf2fb5460   ebp = 0x00000000
+    Found by: stack scanning
+ 2  libc.so + 0x1b98b
+    eip = 0xf730998b   esp = 0xf2fb5488   ebp = 0x00000000
+    Found by: stack scanning
+ 3  system@framework@boot.art + 0x7a6f40
+    eip = 0x7153cf40   esp = 0xf2fb54b8   ebp = 0x00000000
+    Found by: stack scanning
+ 4  libc++.so + 0x15c0
+    eip = 0xf73f35c0   esp = 0xf2fb54cc   ebp = 0x00000000
+    Found by: stack scanning
+ 5  libart.so + 0x14fc18
+    eip = 0xf36f0c18   esp = 0xf2fb54d0   ebp = 0x00000000
+    Found by: stack scanning
+ 6  libart.so + 0x44f092
+    eip = 0xf39f0092   esp = 0xf2fb5510   ebp = 0x00000000
+    Found by: stack scanning
+ 7  libart.so + 0x14fc18
+    eip = 0xf36f0c18   esp = 0xf2fb5520   ebp = 0x00000000
+    Found by: stack scanning
+ 8  system@framework@boot.art + 0x509340
+    eip = 0x7129f340   esp = 0xf2fb555c   ebp = 0x00000000
+    Found by: stack scanning
+ 9  libart.so + 0x6a8f91
+    eip = 0xf3c49f91   esp = 0xf2fb5560   ebp = 0x00000000
+    Found by: stack scanning
+10  system@framework@boot.art + 0x7a6f40
+    eip = 0x7153cf40   esp = 0xf2fb5568   ebp = 0x00000000
+    Found by: stack scanning
+11  system@framework@boot.art + 0x509340
+    eip = 0x7129f340   esp = 0xf2fb5598   ebp = 0x00000000
+    Found by: stack scanning
+12  libart.so + 0x452d16
+    eip = 0xf39f3d16   esp = 0xf2fb55b0   ebp = 0x00000000
+    Found by: stack scanning
+13  libart.so + 0x13608c
+    eip = 0xf36d708c   esp = 0xf2fb55d0   ebp = 0x00000000
+    Found by: stack scanning
+14  libart.so + 0x13c88e
+    eip = 0xf36dd88e   esp = 0xf2fb55e0   ebp = 0x00000000
+    Found by: stack scanning
+15  system@framework@boot.art + 0x509340
+    eip = 0x7129f340   esp = 0xf2fb55e4   ebp = 0x00000000
+    Found by: stack scanning
+16  system@framework@boot.art + 0x99dee8
+    eip = 0x71733ee8   esp = 0xf2fb55f4   ebp = 0x00000000
+    Found by: stack scanning
+17  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5608   ebp = 0x00000000
+    Found by: stack scanning
+18  boot.oat + 0x21cfe9e
+    eip = 0x7393fe9e   esp = 0xf2fb560c   ebp = 0x00000000
+    Found by: stack scanning
+19  libart.so + 0x47062a
+    eip = 0xf3a1162a   esp = 0xf2fb5610   ebp = 0x00000000
+    Found by: stack scanning
+20  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5618   ebp = 0x00000000
+    Found by: stack scanning
+21  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5634   ebp = 0x00000000
+    Found by: stack scanning
+22  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb563c   ebp = 0x00000000
+    Found by: stack scanning
+23  boot.oat + 0x1eb6495
+    eip = 0x73626495   esp = 0xf2fb5640   ebp = 0x00000000
+    Found by: stack scanning
+24  libart.so + 0x13c7cb
+    eip = 0xf36dd7cb   esp = 0xf2fb5650   ebp = 0x00000000
+    Found by: stack scanning
+25  system@framework@boot.art + 0x92d288
+    eip = 0x716c3288   esp = 0xf2fb5654   ebp = 0x00000000
+    Found by: stack scanning
+26  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5660   ebp = 0x00000000
+    Found by: stack scanning
+27  boot.oat + 0x21cfe9e
+    eip = 0x7393fe9e   esp = 0xf2fb5674   ebp = 0x00000000
+    Found by: stack scanning
+28  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5678   ebp = 0x00000000
+    Found by: stack scanning
+29  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb567c   ebp = 0x00000000
+    Found by: stack scanning
+30  boot.oat + 0x21cfee9
+    eip = 0x7393fee9   esp = 0xf2fb5680   ebp = 0x00000000
+    Found by: stack scanning
+31  system@framework@boot.art + 0x7a6f40
+    eip = 0x7153cf40   esp = 0xf2fb5684   ebp = 0x00000000
+    Found by: stack scanning
+32  system@framework@boot.art + 0x6cb8a8
+    eip = 0x714618a8   esp = 0xf2fb5688   ebp = 0x00000000
+    Found by: stack scanning
+33  dalvik-main space (deleted) + 0x70d0
+    eip = 0x12c070d0   esp = 0xf2fb5694   ebp = 0x00000000
+    Found by: stack scanning
+34  libc.so + 0xc6ee8
+    eip = 0xf73b4ee8   esp = 0xf2fb56a0   ebp = 0x00000000
+    Found by: stack scanning
+35  system@framework@boot.art + 0x53dac8
+    eip = 0x712d3ac8   esp = 0xf2fb56a4   ebp = 0x00000000
+    Found by: stack scanning
+36  dalvik-main space (deleted) + 0x7d340
+    eip = 0x12c7d340   esp = 0xf2fb56a8   ebp = 0x00000000
+    Found by: stack scanning
+37  boot.oat + 0x1edc9d0
+    eip = 0x7364c9d0   esp = 0xf2fb56b0   ebp = 0xf2fb57c0
+    Found by: stack scanning
+38  0xf2fb57ec
+    eip = 0xf2fb57ec   esp = 0xf2fb57c8   ebp = 0xf2fb5930
+    Found by: previous frame's frame pointer
+39  0xf2ead930
+    eip = 0xf2ead930   esp = 0xf2fb5938   ebp = 0xf30b4930
+    Found by: previous frame's frame pointer
+40  libart.so + 0x54a190
+    eip = 0xf3aeb190   esp = 0xf2fb5964   ebp = 0xf30b4930
+    Found by: stack scanning
+
+Thread 4
+ 0  libc.so + 0x17232
+    eip = 0xf7305232   esp = 0xf2ead36c   ebp = 0x00000000   ebx = 0xeeb52368
+    esi = 0x00000000   edi = 0x00000000   eax = 0xfffffe00   ecx = 0x00000000
+    edx = 0x00000001   efl = 0x00200217
+    Found by: given as instruction pointer in context
+ 1  libart.so + 0x155065
+    eip = 0xf36f6065   esp = 0xf2ead380   ebp = 0x00000000
+    Found by: stack scanning
+ 2  libart.so + 0x1533c0
+    eip = 0xf36f43c0   esp = 0xf2ead3d0   ebp = 0xf2ead3ec
+    Found by: stack scanning
+
+Thread 5
+ 0  libc.so + 0x17232
+    eip = 0xf7305232   esp = 0xf2da541c   ebp = 0x00000000   ebx = 0xeeb52338
+    esi = 0x00000000   edi = 0x00000000   eax = 0xfffffe00   ecx = 0x00000000
+    edx = 0x00000001   efl = 0x00200217
+    Found by: given as instruction pointer in context
+ 1  libart.so + 0x155065
+    eip = 0xf36f6065   esp = 0xf2da5430   ebp = 0x00000000
+    Found by: stack scanning
+ 2  system@framework@boot.art + 0x7a6d88
+    eip = 0x7153cd88   esp = 0xf2da5488   ebp = 0x00000000
+    Found by: stack scanning
+ 3  system@framework@boot.art + 0x7a6ae0
+    eip = 0x7153cae0   esp = 0xf2da5498   ebp = 0x00000000
+    Found by: stack scanning
+ 4  libart.so + 0x14fc18
+    eip = 0xf36f0c18   esp = 0xf2da54a0   ebp = 0x00000000
+    Found by: stack scanning
+ 5  libart.so + 0x44f092
+    eip = 0xf39f0092   esp = 0xf2da54e0   ebp = 0x00000000
+    Found by: stack scanning
+ 6  libart.so + 0x3a03fa
+    eip = 0xf39413fa   esp = 0xf2da54f0   ebp = 0x00000000
+    Found by: stack scanning
+ 7  libc.so + 0x99f1a
+    eip = 0xf7387f1a   esp = 0xf2da5500   ebp = 0x00000000
+    Found by: stack scanning
+ 8  libart.so + 0x6a8f91
+    eip = 0xf3c49f91   esp = 0xf2da5530   ebp = 0x00000000
+    Found by: stack scanning
+ 9  system@framework@boot.art + 0x7a6d88
+    eip = 0x7153cd88   esp = 0xf2da5538   ebp = 0x00000000
+    Found by: stack scanning
+10  libart.so + 0x452d16
+    eip = 0xf39f3d16   esp = 0xf2da5580   ebp = 0x00000000
+    Found by: stack scanning
+11  libart.so + 0x13608c
+    eip = 0xf36d708c   esp = 0xf2da55a0   ebp = 0x00000000
+    Found by: stack scanning
+12  libart.so + 0x451a9a
+    eip = 0xf39f2a9a   esp = 0xf2da55b0   ebp = 0x00000000
+    Found by: stack scanning
+13  system@framework@boot.art + 0x53daa8
+    eip = 0x712d3aa8   esp = 0xf2da55dc   ebp = 0x00000000
+    Found by: stack scanning
+14  libart.so + 0x47062a
+    eip = 0xf3a1162a   esp = 0xf2da55e0   ebp = 0x00000000
+    Found by: stack scanning
+15  system@framework@boot.art + 0x53daa8
+    eip = 0x712d3aa8   esp = 0xf2da55e8   ebp = 0x00000000
+    Found by: stack scanning
+16  system@framework@boot.art + 0x53d738
+    eip = 0x712d3738   esp = 0xf2da5604   ebp = 0x00000000
+    Found by: stack scanning
+17  system@framework@boot.art + 0x53d738
+    eip = 0x712d3738   esp = 0xf2da560c   ebp = 0x00000000
+    Found by: stack scanning
+18  boot.oat + 0x1eb6495
+    eip = 0x73626495   esp = 0xf2da5610   ebp = 0x00000000
+    Found by: stack scanning
+19  libart.so + 0x13c7cb
+    eip = 0xf36dd7cb   esp = 0xf2da5620   ebp = 0x00000000
+    Found by: stack scanning
+20  system@framework@boot.art + 0x92d288
+    eip = 0x716c3288   esp = 0xf2da5624   ebp = 0x00000000
+    Found by: stack scanning
+21  system@framework@boot.art + 0x53daa8
+    eip = 0x712d3aa8   esp = 0xf2da5630   ebp = 0x00000000
+    Found by: stack scanning
+22  system@framework@boot.art + 0x53daa8
+    eip = 0x712d3aa8   esp = 0xf2da5644   ebp = 0x00000000
+    Found by: stack scanning
+23  system@framework@boot.art + 0x53d738
+    eip = 0x712d3738   esp = 0xf2da5648   ebp = 0x00000000
+    Found by: stack scanning
+24  boot.oat + 0x21cf977
+    eip = 0x7393f977   esp = 0xf2da5650   ebp = 0x00000000
+    Found by: stack scanning
+25  system@framework@boot.art + 0x7a6d88
+    eip = 0x7153cd88   esp = 0xf2da5654   ebp = 0x00000000
+    Found by: stack scanning
+26  system@framework@boot.art + 0x53daa8
+    eip = 0x712d3aa8   esp = 0xf2da5658   ebp = 0x00000000
+    Found by: stack scanning
+27  boot.oat + 0x21ced81
+    eip = 0x7393ed81   esp = 0xf2da5660   ebp = 0xf2da57c0
+    Found by: stack scanning
+28  0xf2da57ec
+    eip = 0xf2da57ec   esp = 0xf2da57c8   ebp = 0xf2da5930
+    Found by: previous frame's frame pointer
+29  0xeed9f930
+    eip = 0xeed9f930   esp = 0xf2da5938   ebp = 0xf2ead930
+    Found by: previous frame's frame pointer
+30  libart.so + 0x54a190
+    eip = 0xf3aeb190   esp = 0xf2da5964   ebp = 0xf2ead930
+    Found by: stack scanning
+
+Thread 6
+ 0  libc.so + 0x17232
+    eip = 0xf7305232   esp = 0xeed9f47c   ebp = 0x00000000   ebx = 0xf3d08288
+    esi = 0xeed9f518   edi = 0x00000000   eax = 0xfffffdfc   ecx = 0x00000000
+    edx = 0x0000004a   efl = 0x00200217
+    Found by: given as instruction pointer in context
+ 1  libart.so + 0x155f52
+    eip = 0xf36f6f52   esp = 0xeed9f490   ebp = 0x00000000
+    Found by: stack scanning
+ 2  libc.so + 0x16ced
+    eip = 0xf7304ced   esp = 0xeed9f4b0   ebp = 0x00000000
+    Found by: stack scanning
+ 3  libart.so + 0x29ed02
+    eip = 0xf383fd02   esp = 0xeed9f4f0   ebp = 0x00000000
+    Found by: stack scanning
+ 4  libc.so + 0x81650
+    eip = 0xf736f650   esp = 0xeed9f504   ebp = 0x00000000
+    Found by: stack scanning
+ 5  libart.so + 0x2da8b3
+    eip = 0xf387b8b3   esp = 0xeed9f550   ebp = 0x00000000
+    Found by: stack scanning
+ 6  libc.so + 0x16c9c
+    eip = 0xf7304c9c   esp = 0xeed9f590   ebp = 0x00000000
+    Found by: stack scanning
+ 7  libc++.so + 0x65285
+    eip = 0xf7457285   esp = 0xeed9f5b0   ebp = 0x00000000
+    Found by: stack scanning
+ 8  libart.so + 0x27e74f
+    eip = 0xf381f74f   esp = 0xeed9f5d0   ebp = 0x00000000
+    Found by: stack scanning
+ 9  libart.so + 0x2dafd6
+    eip = 0xf387bfd6   esp = 0xeed9f5f0   ebp = 0x00000000
+    Found by: stack scanning
+10  libart.so + 0x2d8988
+    eip = 0xf3879988   esp = 0xeed9f600   ebp = 0xeed9f618
+    Found by: stack scanning
+11  0xf3cfc964
+    eip = 0xf3cfc964   esp = 0xeed9f620   ebp = 0x00570000
+    Found by: previous frame's frame pointer
+12  system@framework@boot.art + 0x53dab8
+    eip = 0x712d3ab8   esp = 0xeed9f624   ebp = 0x00570000
+    Found by: stack scanning
+13  system@framework@boot.art + 0x5092d8
+    eip = 0x7129f2d8   esp = 0xeed9f62c   ebp = 0xeed9f7c0
+    Found by: stack scanning
+14  0xeed9f7ec
+    eip = 0xeed9f7ec   esp = 0xeed9f7c8   ebp = 0xeed9f930
+    Found by: previous frame's frame pointer
+15  0xeeb3f930
+    eip = 0xeeb3f930   esp = 0xeed9f938   ebp = 0xf2da5930
+    Found by: previous frame's frame pointer
+16  libart.so + 0x54a190
+    eip = 0xf3aeb190   esp = 0xeed9f964   ebp = 0xf2da5930
+    Found by: stack scanning
+
+Thread 7
+ 0  libc.so + 0x846e6
+    eip = 0xf73726e6   esp = 0xeeb3f700   ebp = 0xe85a4b30   ebx = 0x00000008
+    esi = 0xe85a4b00   edi = 0xeeb3f750   eax = 0x00000000   ecx = 0xc0306201
+    edx = 0xeeb3f750   efl = 0x00200282
+    Found by: given as instruction pointer in context
+ 1  libc.so + 0x9511b
+    eip = 0xf738311b   esp = 0xeeb3f710   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 2  libbinder.so + 0x28030
+    eip = 0xf76d6030   esp = 0xeeb3f730   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 3  libbinder.so + 0x28a06
+    eip = 0xf76d6a06   esp = 0xeeb3f7a0   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 4  libbinder.so + 0x28b48
+    eip = 0xf76d6b48   esp = 0xeeb3f7d0   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 5  libbinder.so + 0x27db6
+    eip = 0xf76d5db6   esp = 0xeeb3f7e0   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 6  libbinder.so + 0x28210
+    eip = 0xf76d6210   esp = 0xeeb3f7e8   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 7  libbinder.so + 0x32143
+    eip = 0xf76e0143   esp = 0xeeb3f800   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 8  libutils.so + 0x14aad
+    eip = 0xf7718aad   esp = 0xeeb3f820   ebp = 0xe85a4b30
+    Found by: stack scanning
+ 9  libart.so + 0x6be270
+    eip = 0xf3c5f270   esp = 0xeeb3f82c   ebp = 0xe85a4b30
+    Found by: stack scanning
+10  libutils.so + 0x14901
+    eip = 0xf7718901   esp = 0xeeb3f838   ebp = 0xe85a4b30
+    Found by: stack scanning
+11  libutils.so + 0x1490a
+    eip = 0xf771890a   esp = 0xeeb3f858   ebp = 0xe85a4b30
+    Found by: stack scanning
+12  libandroid_runtime.so + 0x6c0bf
+    eip = 0xf75850bf   esp = 0xeeb3f860   ebp = 0xe85a4b30
+    Found by: stack scanning
+13  libandroid_runtime.so + 0x6c05c
+    eip = 0xf758505c   esp = 0xeeb3f89c   ebp = 0xe85a4b30
+    Found by: stack scanning
+14  libutils.so + 0x141d0
+    eip = 0xf77181d0   esp = 0xeeb3f8a0   ebp = 0xe85a4b30
+    Found by: stack scanning
+15  libc.so + 0xce27e
+    eip = 0xf73bc27e   esp = 0xeeb3f8b4   ebp = 0xe85a4b30
+    Found by: stack scanning
+16  libc.so + 0x80bd4
+    eip = 0xf736ebd4   esp = 0xeeb3f8e0   ebp = 0xeeb3f938
+    Found by: stack scanning
+17  0x1c87
+    eip = 0x00001c87   esp = 0xeeb3f940   ebp = 0x00001c94
+    Found by: previous frame's frame pointer
+18  libutils.so + 0x14155
+    eip = 0xf7718155   esp = 0xeeb3f964   ebp = 0x00001c94
+    Found by: stack scanning
+
+Thread 8
+ 0  libc.so + 0x846e6
+    eip = 0xf73726e6   esp = 0xeea40700   ebp = 0xe9bb1030   ebx = 0x00000008
+    esi = 0xe9bb1000   edi = 0xeea40750   eax = 0x00000000   ecx = 0xc0306201
+    edx = 0xeea40750   efl = 0x00200282
+    Found by: given as instruction pointer in context
+ 1  libc.so + 0x9511b
+    eip = 0xf738311b   esp = 0xeea40710   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 2  libbinder.so + 0x28030
+    eip = 0xf76d6030   esp = 0xeea40730   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 3  libbinder.so + 0x28a06
+    eip = 0xf76d6a06   esp = 0xeea407a0   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 4  libbinder.so + 0x28b02
+    eip = 0xf76d6b02   esp = 0xeea407d0   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 5  libbinder.so + 0x27db6
+    eip = 0xf76d5db6   esp = 0xeea407e0   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 6  libbinder.so + 0x32143
+    eip = 0xf76e0143   esp = 0xeea40800   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 7  libutils.so + 0x14aad
+    eip = 0xf7718aad   esp = 0xeea40820   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 8  libart.so + 0x6be270
+    eip = 0xf3c5f270   esp = 0xeea4082c   ebp = 0xe9bb1030
+    Found by: stack scanning
+ 9  libutils.so + 0x14901
+    eip = 0xf7718901   esp = 0xeea40838   ebp = 0xe9bb1030
+    Found by: stack scanning
+10  libutils.so + 0x1490a
+    eip = 0xf771890a   esp = 0xeea40858   ebp = 0xe9bb1030
+    Found by: stack scanning
+11  libandroid_runtime.so + 0x6c0bf
+    eip = 0xf75850bf   esp = 0xeea40860   ebp = 0xe9bb1030
+    Found by: stack scanning
+12  libandroid_runtime.so + 0x6c05c
+    eip = 0xf758505c   esp = 0xeea4089c   ebp = 0xe9bb1030
+    Found by: stack scanning
+13  libutils.so + 0x141d0
+    eip = 0xf77181d0   esp = 0xeea408a0   ebp = 0xe9bb1030
+    Found by: stack scanning
+14  libc.so + 0xce27e
+    eip = 0xf73bc27e   esp = 0xeea408b4   ebp = 0xe9bb1030
+    Found by: stack scanning
+15  libc.so + 0x80bd4
+    eip = 0xf736ebd4   esp = 0xeea408e0   ebp = 0xeea40938
+    Found by: stack scanning
+16  0x1c87
+    eip = 0x00001c87   esp = 0xeea40940   ebp = 0x00001c95
+    Found by: previous frame's frame pointer
+17  libutils.so + 0x14155
+    eip = 0xf7718155   esp = 0xeea40964   ebp = 0x00001c95
+    Found by: stack scanning
+
+Loaded modules:
+0x12c00000 - 0x18bfffff  dalvik-main space (deleted)  ???  (WARNING: No symbols, , )
+0x22c00000 - 0x28bfffff  dalvik-main space 1 (deleted)  ???  (WARNING: No symbols, , )
+0x565db000 - 0x565defff  app_process32  ???  (main)  (WARNING: No symbols, app_process32, 2855298BD765FB8071EC5580790C79750)
+0x70d96000 - 0x7176ffff  system@framework@boot.art  ???  (WARNING: No symbols, system@framework@boot.art, 000000000000000000000000000000000)
+0x71770000 - 0x75326fff  boot.oat  ???  (WARNING: No symbols, boot.oat, 390436859F89F123B4C9ED856E362CC60)
+0x75328000 - 0x75403fff  dalvik-zygote space (deleted)  ???  (WARNING: No symbols, , )
+0x75404000 - 0x79327fff  dalvik-non moving space (deleted)  ???  (WARNING: No symbols, , )
+0xe0d6f000 - 0xe1640fff  base.odex  ???  (WARNING: No symbols, base.odex, 062EBDE69821410D3FFE0DA7970C69160)
+0xe16c0000 - 0xe1abffff  dalvik-allocspace main rosalloc space mark-bitmap 3 (deleted)  ???  (WARNING: No symbols, , )
+0xe1ac0000 - 0xe1ebffff  dalvik-allocspace main rosalloc space live-bitmap 3 (deleted)  ???  (WARNING: No symbols, , )
+0xe9bcf000 - 0xe9bf5fff  libkeymaster1.so  ???
+0xe9bfa000 - 0xe9c05fff  libkeymaster_messages.so  ???
+0xe9c09000 - 0xe9c1ffff  libsoftkeymasterdevice.so  ???
+0xe9c23000 - 0xe9c31fff  libkeystore_binder.so  ???
+0xe9c36000 - 0xe9c37fff  libkeystore-engine.so  ???
+0xe9c3a000 - 0xe9c60fff  libjavacrypto.so  ???
+0xe9c64000 - 0xe9c7afff  libswresample.so  ???
+0xe9c7e000 - 0xe9c85fff  libffmpeg_utils.so  ???
+0xe9c87000 - 0xe9cd2fff  libavutil.so  ???
+0xe9ce0000 - 0xe9eaffff  libavformat.so  ???
+0xe9eb6000 - 0xea87ffff  libavcodec.so  ???
+0xeaef4000 - 0xeaf01fff  libFFmpegExtractor.so  ???
+0xeaf05000 - 0xeaf18fff  libstagefright_amrnb_common.so  ???
+0xeaf18000 - 0xeaf3ffff  libexif.so  ???
+0xeaf4e000 - 0xeaf5afff  libjhead.so  ???
+0xeaf5f000 - 0xeaf7dfff  libmtp.so  ???
+0xeaf7f000 - 0xeaff9fff  libmedia_jni.so  ???
+0xeb000000 - 0xeb003fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xeb01c000 - 0xeb020fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xeb024000 - 0xeb0bafff  libbugly.so  ???  (WARNING: No symbols, libbugly.so, A7367404021CABC8B61C615C5FCF2D700)
+0xeb155000 - 0xeb16efff  libcompiler_rt.so  ???
+0xeb1e1000 - 0xeb1f6fff  libandroid.so  ???
+0xeb1fa000 - 0xeb202fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xeb20c000 - 0xeb232fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xeb237000 - 0xeb246fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xeb247000 - 0xeb2bffff  tzdata  ???
+0xeb2c0000 - 0xec8bffff  icudt55l.dat  ???  (WARNING: No symbols, icudt55l.dat, 000000000000000000000000000000000)
+0xec940000 - 0xec943fff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xec953000 - 0xec953fff  libjnigraphics.so  ???
+0xec954000 - 0xec955fff  libjnigraphics.so  ???
+0xec956000 - 0xec957fff  libwebviewchromium_loader.so  ???
+0xec95a000 - 0xec976fff  DancingScript-Bold.ttf  ???
+0xec977000 - 0xec993fff  DancingScript-Regular.ttf  ???
+0xec994000 - 0xec9a2fff  ComingSoon.ttf  ???
+0xec9a3000 - 0xec9b3fff  CutiveMono.ttf  ???
+0xec9b4000 - 0xec9cefff  DroidSansMono.ttf  ???
+0xec9cf000 - 0xeca0ffff  NotoSerif-BoldItalic.ttf  ???
+0xeca10000 - 0xeca4cfff  NotoSerif-Italic.ttf  ???
+0xeca4d000 - 0xeca89fff  NotoSerif-Bold.ttf  ???
+0xeca8a000 - 0xecac6fff  NotoSerif-Regular.ttf  ???
+0xecac7000 - 0xecb13fff  RobotoCondensed-BoldItalic.ttf  ???
+0xecb14000 - 0xecb5bfff  RobotoCondensed-Bold.ttf  ???
+0xecb5c000 - 0xecba8fff  RobotoCondensed-Italic.ttf  ???
+0xecba9000 - 0xecbf1fff  RobotoCondensed-Regular.ttf  ???
+0xecbf2000 - 0xecc3ffff  RobotoCondensed-LightItalic.ttf  ???
+0xecc40000 - 0xecc87fff  RobotoCondensed-Light.ttf  ???
+0xecc88000 - 0xecebdfff  NotoColorEmoji.ttf  ???
+0xecebe000 - 0xed07dfff  NotoSansKR-Regular.otf  ???
+0xed07e000 - 0xed38bfff  NotoSansJP-Regular.otf  ???
+0xed38c000 - 0xed67ffff  NotoSansTC-Regular.otf  ???
+0xed6c2000 - 0xed6cbfff  CarroisGothicSC-Regular.ttf  ???
+0xed6cc000 - 0xed6e7fff  NotoSansMongolian-Regular.ttf  ???
+0xed6e8000 - 0xed6eafff  NotoSansTaiLe-Regular.ttf  ???
+0xed6eb000 - 0xedeb2fff  NotoSansSC-Regular.otf  ???
+0xedeb3000 - 0xedef4fff  NotoSansSymbols-Regular-Subsetted.ttf  ???
+0xedef5000 - 0xedf12fff  NotoSansYi-Regular.ttf  ???
+0xedf13000 - 0xedf22fff  NotoSansVai-Regular.ttf  ???
+0xedf23000 - 0xedf26fff  NotoSansTifinagh-Regular.ttf  ???
+0xedf27000 - 0xedf88fff  NotoSansTibetan-Regular.ttf  ???
+0xedf89000 - 0xedf8cfff  NotoSansTaiViet-Regular.ttf  ???
+0xedf8d000 - 0xedf98fff  NotoSansTaiTham-Regular.ttf  ???
+0xedf99000 - 0xedf9afff  NotoSansTagbanwa-Regular.ttf  ???
+0xedf9b000 - 0xedfa6fff  NotoSansSyriacEstrangela-Regular.ttf  ???
+0xedfa7000 - 0xedfaafff  NotoSansSylotiNagri-Regular.ttf  ???
+0xedfab000 - 0xedfadfff  NotoSansSundanese-Regular.ttf  ???
+0xedfae000 - 0xedfb2fff  NotoSansSaurashtra-Regular.ttf  ???
+0xedfb3000 - 0xedfb4fff  NotoSansRejang-Regular.ttf  ???
+0xedfb5000 - 0xedfb6fff  NotoSansOlChiki-Regular.ttf  ???
+0xedfb7000 - 0xedfbbfff  NotoSansNKo-Regular.ttf  ???
+0xedfbc000 - 0xedfbffff  NotoSansNewTaiLue-Regular.ttf  ???
+0xedfc0000 - 0xedfc3fff  NotoSansMeeteiMayek-Regular.ttf  ???
+0xedfc4000 - 0xedfc7fff  NotoSansMandaic-Regular.ttf  ???
+0xedfc8000 - 0xedfc9fff  NotoSansLisu-Regular.ttf  ???
+0xedfca000 - 0xedfccfff  NotoSansLimbu-Regular.ttf  ???
+0xedfcd000 - 0xedfe5fff  NotoSansLepcha-Regular.ttf  ???
+0xedfe6000 - 0xedfe7fff  NotoSansKayahLi-Regular.ttf  ???
+0xedfe8000 - 0xedff0fff  NotoSansJavanese-Regular.ttf  ???
+0xedff1000 - 0xedff2fff  NotoSansHanunoo-Regular.ttf  ???
+0xedff3000 - 0xedff6fff  NotoSansGlagolitic-Regular.ttf  ???
+0xedff7000 - 0xedffcfff  NotoSansCoptic-Regular.ttf  ???
+0xedffd000 - 0xee005fff  NotoSansCherokee-Regular.ttf  ???
+0xee006000 - 0xee011fff  NotoSansCanadianAboriginal-Regular.ttf  ???
+0xee012000 - 0xee013fff  NotoSansBuhid-Regular.ttf  ???
+0xee014000 - 0xee017fff  NotoSansBatak-Regular.ttf  ???
+0xee018000 - 0xee038fff  NotoSansBamum-Regular.ttf  ???
+0xee039000 - 0xee040fff  NotoSansBalinese-Regular.ttf  ???
+0xee041000 - 0xee046fff  NotoSansCham-Bold.ttf  ???
+0xee047000 - 0xee04cfff  NotoSansCham-Regular.ttf  ???
+0xee04d000 - 0xee066fff  NotoSansMyanmarUI-Bold.ttf  ???
+0xee067000 - 0xee07ffff  NotoSansMyanmarUI-Regular.ttf  ???
+0xee0c0000 - 0xee0c1fff  NotoSansBuginese-Regular.ttf  ???
+0xee0c2000 - 0xee0c5fff  NotoSansThaana-Bold.ttf  ???
+0xee0c6000 - 0xee0e0fff  NotoSansMyanmar-Bold.ttf  ???
+0xee0e1000 - 0xee0fbfff  NotoSansMyanmar-Regular.ttf  ???
+0xee0fc000 - 0xee103fff  NotoSansLaoUI-Bold.ttf  ???
+0xee104000 - 0xee10bfff  NotoSansLaoUI-Regular.ttf  ???
+0xee10c000 - 0xee113fff  NotoSansLao-Bold.ttf  ???
+0xee114000 - 0xee11bfff  NotoSansLao-Regular.ttf  ???
+0xee11c000 - 0xee124fff  NotoSansKhmerUI-Bold.ttf  ???
+0xee125000 - 0xee12efff  NotoSansKhmerUI-Regular.ttf  ???
+0xee12f000 - 0xee137fff  NotoSansKhmer-Bold.ttf  ???
+0xee138000 - 0xee140fff  NotoSansKhmer-Regular.ttf  ???
+0xee141000 - 0xee166fff  NotoSansSinhala-Bold.ttf  ???
+0xee167000 - 0xee18dfff  NotoSansSinhala-Regular.ttf  ???
+0xee18e000 - 0xee1a1fff  NotoSansOriyaUI-Bold.ttf  ???
+0xee1a2000 - 0xee1b5fff  NotoSansOriyaUI-Regular.ttf  ???
+0xee1b6000 - 0xee1cafff  NotoSansOriya-Bold.ttf  ???
+0xee1cb000 - 0xee1dffff  NotoSansOriya-Regular.ttf  ???
+0xee1e0000 - 0xee1f3fff  NotoSansKannadaUI-Bold.ttf  ???
+0xee1f4000 - 0xee207fff  NotoSansKannadaUI-Regular.ttf  ???
+0xee208000 - 0xee21bfff  NotoSansKannada-Bold.ttf  ???
+0xee21c000 - 0xee22ffff  NotoSansKannada-Regular.ttf  ???
+0xee230000 - 0xee24bfff  NotoSansTeluguUI-Bold.ttf  ???
+0xee24c000 - 0xee267fff  NotoSansTeluguUI-Regular.ttf  ???
+0xee268000 - 0xee282fff  NotoSansTelugu-Bold.ttf  ???
+0xee283000 - 0xee29dfff  NotoSansTelugu-Regular.ttf  ???
+0xee29e000 - 0xee2b7fff  NotoSansBengaliUI-Bold.ttf  ???
+0xee2b8000 - 0xee2d2fff  NotoSansBengaliUI-Regular.ttf  ???
+0xee2d3000 - 0xee2eafff  NotoSansBengali-Bold.ttf  ???
+0xee2eb000 - 0xee303fff  NotoSansBengali-Regular.ttf  ???
+0xee304000 - 0xee311fff  NotoSansMalayalamUI-Bold.ttf  ???
+0xee312000 - 0xee31ffff  NotoSansMalayalamUI-Regular.ttf  ???
+0xee320000 - 0xee32dfff  NotoSansMalayalam-Bold.ttf  ???
+0xee32e000 - 0xee33bfff  NotoSansMalayalam-Regular.ttf  ???
+0xee33c000 - 0xee344fff  NotoSansTamilUI-Bold.ttf  ???
+0xee345000 - 0xee34dfff  NotoSansTamilUI-Regular.ttf  ???
+0xee34e000 - 0xee356fff  NotoSansTamil-Bold.ttf  ???
+0xee357000 - 0xee35ffff  NotoSansTamil-Regular.ttf  ???
+0xee360000 - 0xee367fff  NotoSansGurmukhiUI-Bold.ttf  ???
+0xee368000 - 0xee36ffff  NotoSansGurmukhiUI-Regular.ttf  ???
+0xee370000 - 0xee377fff  NotoSansGurmukhi-Bold.ttf  ???
+0xee378000 - 0xee37ffff  NotoSansGurmukhi-Regular.ttf  ???
+0xee380000 - 0xee39bfff  NotoSansGujaratiUI-Bold.ttf  ???
+0xee39c000 - 0xee3b8fff  NotoSansGujaratiUI-Regular.ttf  ???
+0xee3b9000 - 0xee3d5fff  NotoSansGujarati-Bold.ttf  ???
+0xee3d6000 - 0xee3f3fff  NotoSansGujarati-Regular.ttf  ???
+0xee3f4000 - 0xee411fff  NotoSansDevanagariUI-Bold.ttf  ???
+0xee412000 - 0xee430fff  NotoSansDevanagariUI-Regular.ttf  ???
+0xee431000 - 0xee451fff  NotoSansDevanagari-Bold.ttf  ???
+0xee452000 - 0xee473fff  NotoSansDevanagari-Regular.ttf  ???
+0xee474000 - 0xee478fff  NotoSansGeorgian-Bold.ttf  ???
+0xee479000 - 0xee49afff  NotoSansEthiopic-Bold.ttf  ???
+0xee49b000 - 0xee4bcfff  NotoSansEthiopic-Regular.ttf  ???
+0xee4bd000 - 0xee4d9fff  NotoNaskhArabicUI-Bold.ttf  ???
+0xee4da000 - 0xee4f6fff  NotoNaskhArabicUI-Regular.ttf  ???
+0xee4f7000 - 0xee513fff  NotoNaskhArabic-Bold.ttf  ???
+0xee514000 - 0xee530fff  NotoNaskhArabic-Regular.ttf  ???
+0xee531000 - 0xee57ffff  Roboto-BoldItalic.ttf  ???
+0xee580000 - 0xee5c8fff  Roboto-Bold.ttf  ???
+0xee5c9000 - 0xee616fff  Roboto-BlackItalic.ttf  ???
+0xee617000 - 0xee65ffff  Roboto-Black.ttf  ???
+0xee660000 - 0xee6adfff  Roboto-MediumItalic.ttf  ???
+0xee6ae000 - 0xee6f6fff  Roboto-Medium.ttf  ???
+0xee6f7000 - 0xee744fff  Roboto-Italic.ttf  ???
+0xee745000 - 0xee78efff  Roboto-Regular.ttf  ???
+0xee78f000 - 0xee7ddfff  Roboto-LightItalic.ttf  ???
+0xee7de000 - 0xee826fff  Roboto-Light.ttf  ???
+0xee827000 - 0xee875fff  Roboto-ThinItalic.ttf  ???
+0xee876000 - 0xee8bffff  Roboto-Thin.ttf  ???
+0xee900000 - 0xee903fff  NotoSansThaana-Regular.ttf  ???
+0xee904000 - 0xee908fff  NotoSansGeorgian-Regular.ttf  ???
+0xee909000 - 0xee90cfff  NotoSansArmenian-Bold.ttf  ???
+0xee90d000 - 0xee910fff  NotoSansArmenian-Regular.ttf  ???
+0xee911000 - 0xee915fff  NotoSansThaiUI-Bold.ttf  ???
+0xee916000 - 0xee935fff  dalvik-LinearAlloc (deleted)  ???  (WARNING: No symbols, , )
+0xeeb80000 - 0xeeb85fff  NotoSansThaiUI-Regular.ttf  ???
+0xeeb86000 - 0xeeb8afff  NotoSansThai-Bold.ttf  ???
+0xeeb8b000 - 0xeeb90fff  NotoSansThai-Regular.ttf  ???
+0xeeb91000 - 0xeeb95fff  NotoSansHebrew-Bold.ttf  ???
+0xeeb9d000 - 0xeec9afff  binder  ???  (WARNING: No symbols, , )
+0xeeda0000 - 0xf039ffff  icudt55l.dat  ???  (WARNING: No symbols, icudt55l.dat, 000000000000000000000000000000000)
+0xf039e000 - 0xf03fbfff  libjavacore.so  ???
+0xf0481000 - 0xf0485fff  NotoSansHebrew-Regular.ttf  ???
+0xf048d000 - 0xf049cfff  dalvik-rosalloc page map (deleted)  ???  (WARNING: No symbols, , )
+0xf049d000 - 0xf04bcfff  dalvik-LinearAlloc (deleted)  ???  (WARNING: No symbols, , )
+0xf04bd000 - 0xf064cfff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf064d000 - 0xf0e4dfff  dalvik-live stack (deleted)  ???  (WARNING: No symbols, , )
+0xf0e4e000 - 0xf164efff  dalvik-allocation stack (deleted)  ???  (WARNING: No symbols, , )
+0xf164f000 - 0xf168efff  dalvik-mark stack (deleted)  ???  (WARNING: No symbols, , )
+0xf168f000 - 0xf235dfff  dalvik-card table (deleted)  ???  (WARNING: No symbols, , )
+0xf235e000 - 0xf237dfff  dalvik-large marked objects (deleted)  ???  (WARNING: No symbols, , )
+0xf237e000 - 0xf239dfff  dalvik-large live objects (deleted)  ???  (WARNING: No symbols, , )
+0xf239e000 - 0xf279dfff  dalvik-allocspace main rosalloc space 1 mark-bitmap 2 (deleted)  ???  (WARNING: No symbols, , )
+0xf279e000 - 0xf2b9dfff  dalvik-allocspace main rosalloc space 1 live-bitmap 2 (deleted)  ???  (WARNING: No symbols, , )
+0xf2b9e000 - 0xf2badfff  dalvik-rosalloc page map (deleted)  ???  (WARNING: No symbols, , )
+0xf2bae000 - 0xf2bbffff  dalvik-large object space allocation (deleted)  ???  (WARNING: No symbols, , )
+0xf2c8f000 - 0xf2c90fff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf2c94000 - 0xf2c95fff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf2c9c000 - 0xf2c9dfff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf31b4000 - 0xf32b0fff  dalvik-allocspace non moving space mark-bitmap 4 (deleted)  ???  (WARNING: No symbols, , )
+0xf32b1000 - 0xf33adfff  dalvik-allocspace non moving space live-bitmap 4 (deleted)  ???  (WARNING: No symbols, , )
+0xf33ae000 - 0xf34adfff   non moving space mark-bitmap 0 (deleted)  ???  (WARNING: No symbols, , )
+0xf34ae000 - 0xf35adfff   non moving space live-bitmap 0 (deleted)  ???  (WARNING: No symbols, , )
+0xf35a1000 - 0xf3cf1fff  libart.so  ???  (WARNING: No symbols, libart.so, 3984E4A68C22BD8C22335304B475403E0)
+0xf3e00000 - 0xf3e03fff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf3e04000 - 0xf3e06fff  dalvik-mark sweep sweep array free buffer (deleted)  ???  (WARNING: No symbols, , )
+0xf3e08000 - 0xf3e0dfff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf3e11000 - 0xf3e12fff  dalvik-indirect ref table (deleted)  ???  (WARNING: No symbols, , )
+0xf3e16000 - 0xf3e16fff  dalvik-mod union bitmap (deleted)  ???  (WARNING: No symbols, , )
+0xf3e34000 - 0xf3e34fff  libsigchain.so  ???
+0xf3e35000 - 0xf3e36fff  libsigchain.so  ???
+0xf3e39000 - 0xf3e58fff  __properties__  ???  (WARNING: No symbols, , )
+0xf3e21000 - 0xf53b9fff  libLLVM.so  ???
+0xf5480000 - 0xf54d7fff  libbcinfo.so  ???
+0xf54db000 - 0xf5541fff  libbcc.so  ???
+0xf5544000 - 0xf5550fff  libcommon_time_client.so  ???
+0xf5557000 - 0xf557efff  libprotobuf-cpp-lite.so  ???
+0xf5581000 - 0xf558afff  libstagefright_avc_common.so  ???
+0xf558d000 - 0xf558dfff  libstagefright_enc_common.so  ???
+0xf558e000 - 0xf558ffff  libstagefright_enc_common.so  ???
+0xf5590000 - 0xf5592fff  libpowermanager.so  ???
+0xf5595000 - 0xf55b6fff  libvorbisidec.so  ???
+0xf55ba000 - 0xf55bcfff  libstagefright_yuv.so  ???
+0xf55be000 - 0xf55f8fff  libstagefright_omx.so  ???
+0xf55fe000 - 0xf564efff  libopus.so  ???
+0xf5653000 - 0xf5656fff  libmediautils.so  ???
+0xf5659000 - 0xf567afff  libdrmframework.so  ???
+0xf5680000 - 0xf56a4fff  libRScpp.so  ???
+0xf56a7000 - 0xf5704fff  libRS.so  ???
+0xf5709000 - 0xf570dfff  libspeexresampler.so  ???
+0xf5710000 - 0xf5719fff  libnbaio.so  ???
+0xf571d000 - 0xf573cfff  libpcre.so  ???
+0xf5740000 - 0xf5743fff  libwpa_client.so  ???
+0xf5746000 - 0xf582cfff  libGLES_trace.so  ???
+0xf5830000 - 0xf58b6fff  libft2.so  ???
+0xf58bc000 - 0xf58f3fff  libpng.so  ???
+0xf58f7000 - 0xf58f7fff  libsync.so  ???
+0xf58f8000 - 0xf58f9fff  libsync.so  ???
+0xf58fa000 - 0xf58fcfff  libstdc++.so  ???
+0xf58ff000 - 0xf591bfff  libunwind.so  ???
+0xf592d000 - 0xf5935fff  libbase.so  ???
+0xf5938000 - 0xf593cfff  libeffects.so  ???
+0xf593f000 - 0xf5940fff  libstagefright_http_support.so  ???
+0xf5943000 - 0xf5963fff  libstagefright_foundation.so  ???
+0xf5961000 - 0xf5b53fff  libstagefright.so  ???
+0xf5b60000 - 0xf5c15fff  libhwui.so  ???
+0xf5c1c000 - 0xf5c1dfff  libradio_metadata.so  ???
+0xf5c20000 - 0xf5c22fff  libnativebridge.so  ???
+0xf5c25000 - 0xf5c26fff  libprocessgroup.so  ???
+0xf5c29000 - 0xf5c3ffff  libminikin.so  ???
+0xf5c41000 - 0xf5c4cfff  libsoundtrigger.so  ???
+0xf5c50000 - 0xf5c5bfff  libradio.so  ???
+0xf5c60000 - 0xf5c61fff  libnetd_client.so  ???
+0xf5c64000 - 0xf5c76fff  libimg_utils.so  ???
+0xf5c74000 - 0xf612dfff  libpdfium.so  ???
+0xf613e000 - 0xf6147fff  libaudioutils.so  ???
+0xf614b000 - 0xf6168fff  libz.so  ???
+0xf616c000 - 0xf61c2fff  libharfbuzz_ng.so  ???
+0xf61c5000 - 0xf61c8fff  libusbhost.so  ???
+0xf61cb000 - 0xf620efff  libjpeg.so  ???
+0xf61fb000 - 0xf6303fff  libmedia.so  ???
+0xf631c000 - 0xf6587fff  libicui18n.so  ???
+0xf658e000 - 0xf6748fff  libicuuc.so  ???
+0xf675a000 - 0xf679cfff  libssl.so  ???
+0xf67a0000 - 0xf68b7fff  libcrypto.so  ???
+0xf68c5000 - 0xf691ffff  libsonivox.so  ???
+0xf6927000 - 0xf693efff  libselinux.so  ???
+0xf6941000 - 0xf6946fff  libhardware_legacy.so  ???
+0xf694a000 - 0xf694afff  libhardware.so  ???
+0xf694e000 - 0xf6952fff  libETC1.so  ???
+0xf6955000 - 0xf6962fff  libGLESv2.so  ???
+0xf6965000 - 0xf696cfff  libGLESv1_CM.so  ???
+0xf6967000 - 0xf6a23fff  libEGL.so  ???
+0xf6a30000 - 0xf6b2bfff  libsqlite.so  ???
+0xf6b21000 - 0xf7082fff  libskia.so  ???
+0xf70ad000 - 0xf70b4fff  libcamera_metadata.so  ???
+0xf70b4000 - 0xf70eefff  libcamera_client.so  ???
+0xf70f8000 - 0xf7156fff  libinputflinger.so  ???
+0xf715a000 - 0xf7180fff  libinput.so  ???
+0xf717e000 - 0xf71fefff  libgui.so  ???
+0xf720d000 - 0xf721dfff  libui.so  ???
+0xf7220000 - 0xf7227fff  libnetutils.so  ???
+0xf722a000 - 0xf722ffff  libnativehelper.so  ???
+0xf7232000 - 0xf725dfff  libexpat.so  ???
+0xf7261000 - 0xf729ffff  libandroidfw.so  ???
+0xf72a3000 - 0xf72a3fff  libmemtrack.so  ???
+0xf72a4000 - 0xf72a5fff  libmemtrack.so  ???
+0xf72a6000 - 0xf72b0fff  libbacktrace.so  ???
+0xf72b3000 - 0xf72eafff  libm.so  ???
+0xf72ee000 - 0xf73e2fff  libc.so  ???  (WARNING: No symbols, libc.so, B703DCA113E282C97A0C8F7F4B2A36790)
+0xf73f2000 - 0xf74d7fff  libc++.so  ???  (WARNING: No symbols, libc++.so, 40143EDEA4C1E1AB3C5FFCF6ECEEA7500)
+0xf74de000 - 0xf7522fff  libwilhelm.so  ???
+0xf7519000 - 0xf769bfff  libandroid_runtime.so  ???  (WARNING: No symbols, libandroid_runtime.so, 13F0D952DCBFAF833B48639812AF6FCD0)
+0xf76ae000 - 0xf76eefff  libbinder.so  ???  (WARNING: No symbols, libbinder.so, 9D78291FB12397AB621E2F96028261B80)
+0xf76f8000 - 0xf7700fff  liblog.so  ???
+0xf7704000 - 0xf7727fff  libutils.so  ???  (WARNING: No symbols, libutils.so, A3B9B2C75F70FA3329E403D1C063CF100)
+0xf772b000 - 0xf7740fff  libcutils.so  ???  (WARNING: No symbols, libcutils.so, AC65BF9797021730952B2F35EBF378EC0)
+0xf774a000 - 0xf7769fff  __properties__  ???  (WARNING: No symbols, , )
+0xf7770000 - 0xf7770fff  linux-gate.so  ???
+0xf7771000 - 0xf77a9fff  linker  ???  (WARNING: No symbols, linker, F5F209B186A5D95B40A43041A1688CA50)
